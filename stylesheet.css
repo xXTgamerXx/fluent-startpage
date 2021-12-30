@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+@font-face {
+    font-family: 'NerdFontsSymbols Nerd Font';
+    /* @TODO you need to adjust the path to the font: */
+    src: url("./NerdFontsSymbols-2048-em\ Nerd\ Font\ Complete.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+.nf, .nerd-font, .nerd-fonts {
+    font-family: 'NerdFontsSymbols Nerd Font';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none; 
+    line-height: 0px;
+    font-size: 64px;
+    /*font-size: 64px;*/
+    /* Better Font Rendering (from devicons, et al) */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background: url(./bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Lexend Deca';
+}
+.ShowOnHover {
+    display: none;
+}
+.HoverOnMe:hover .ShowOnHover {
+    animation: showTitle 0.5s;
+    display: block;
+    font-size: 24px;
+}
+.main {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.flex-container-1, .flex-container-2 {
+    display: flex;
+}
+.date, .time {
+    font-size: 24px;
+    color: white;
+    background-color: #000000bb;
+    margin: 5px;
+    border-radius: 10px;
+    line-height: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+button {
+    animation: FadeOut 0.5s;
+    border-radius: 10px;
+    border: none;
+    background-color: #000000bb;
+    color: #fff;
+    width: 250px;
+    height: 190px;
+    font-size: 32px;
+    font-family: 'Lexend Deca';
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin: 5px;
+}
+button:hover {
+    animation: FadeIn 0.5s;
+    background-color: #0e66fecc;
+    color: #000;
+}
+@keyframes showTitle {
+    0% {
+        color: #00000000;
+    }
+    100% {
+        color: #000000;
+    }
+}
+@keyframes FadeIn {
+    0% {background-color:#000000bb; color: #fff;}
+    100% {background-color: #0e66fecc; color: 000;}
+}
+@keyframes FadeOut {
+    100% {background-color:#000000bb; color: #fff;}
+    0% {background-color: #0e66fecc; color: #000;}
+}

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="250"
+   height="250"
+   viewBox="0 0 66.145832 66.145835"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter2352"
+       x="-0.075590551"
+       y="-0.090708666"
+       width="1.1511811"
+       height="1.2192126">
+      <feFlood
+         flood-opacity="0.34902"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2342" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2344" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur2346" />
+      <feOffset
+         dx="0"
+         dy="1"
+         result="offset"
+         id="feOffset2348" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite2350" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter2382"
+       x="-0.075590551"
+       y="-0.090708666"
+       width="1.1511811"
+       height="1.2192126">
+      <feFlood
+         flood-opacity="0.34902"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2372" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2374" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur2376" />
+      <feOffset
+         dx="0"
+         dy="1"
+         result="offset"
+         id="feOffset2378" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite2380" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter2412"
+       x="-0.075590551"
+       y="-0.090708666"
+       width="1.1511811"
+       height="1.2192126">
+      <feFlood
+         flood-opacity="0.34902"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2402" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2404" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur2406" />
+      <feOffset
+         dx="0"
+         dy="1"
+         result="offset"
+         id="feOffset2408" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite2410" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#057093;stroke-width:0.394417;filter:url(#filter2412)"
+       id="rect1092"
+       width="31.75"
+       height="26.458332"
+       x="10.583335"
+       y="14.552084"
+       ry="3.8629825" />
+    <rect
+       style="fill:#4193ae;stroke-width:0.394417;fill-opacity:1;filter:url(#filter2382)"
+       id="rect1092-6"
+       width="31.75"
+       height="26.458332"
+       x="15.875001"
+       y="19.843754"
+       ry="3.8629825" />
+    <rect
+       style="fill:#59a3ba;stroke-width:0.394417;fill-opacity:1;filter:url(#filter2352)"
+       id="rect1092-7"
+       width="31.75"
+       height="26.458332"
+       x="21.166666"
+       y="25.135416"
+       ry="3.8629825" />
+  </g>
+</svg>
