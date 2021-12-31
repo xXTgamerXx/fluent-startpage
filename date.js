@@ -9,10 +9,10 @@ function currentDate() {
     if (day == 5) {dayName = "Friday"}
     if (day == 6) {dayName = "Saturday"}
     let dayNum = today.getDate();
-    if (dayNum == 1) {suffix = "st"}
-    if (dayNum == 2) {suffix = "nd"}
-    if (dayNum == 3) {suffix = "rd"}
-    if (dayNum >= 4) {suffix = "th"}
+    if (dayNum == 1 || dayNum == 21 || dayNum == 31) {suffix = "st"}
+    if (dayNum == 2 || dayNum == 22) {suffix = "nd"}
+    if (dayNum == 3 || dayNum == 23) {suffix = "rd"}
+    if (dayNum >= 4 && dayNum != 31 && dayNum != 23 && dayNum != 22 && dayNum != 21) {suffix = "th"}
     let month = today.getMonth();
     if (month == 0) {monthName = " January"}
     if (month == 1) {monthName = " February"}
