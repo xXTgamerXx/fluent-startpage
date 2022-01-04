@@ -61,7 +61,6 @@ body {
     -webkit-backdrop-filter: blur(10px);
 }
 button {
-    animation: FadeOut 0.5s;
     border-radius: 10px;
     border: none;
     background-color: #000000bb;
@@ -73,10 +72,9 @@ button {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     margin: 5px;
-    transition: transform 250ms;
+    transition: transform 500ms, background-color 500ms, color 500ms;
 }
 button:hover {
-    animation: FadeIn 0.5s;
     background-color: #0e66fecc;
     color: #000;
     transform: scale(105%, 105%);
@@ -88,12 +86,4 @@ button:hover {
     100% {
         color: #000000;
     }
-}
-@keyframes FadeIn {
-    0% {background-color:#000000bb; color: #fff;}
-    100% {background-color: #0e66fecc; color: 000;}
-}
-@keyframes FadeOut {
-    100% {background-color:#000000bb; color: #fff;}
-    0% {background-color: #0e66fecc; color: #000;}
 }
